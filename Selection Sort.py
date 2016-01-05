@@ -20,7 +20,7 @@ def selection(arr):
         lowerbound += 1
         upperbound -= 1
       
-randomlist = [randint(0,10000) for x in range(1000)]
+randomlist = [randint(0,10000) for x in range(100)]
 selection(randomlist)
 aftersort = sorted(randomlist)
 
